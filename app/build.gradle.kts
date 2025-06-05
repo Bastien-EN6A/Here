@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.here"
+    namespace = "com.ironmind.here"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.here"
-        minSdk = 34
+        minSdk = 31
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -56,4 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("com.jcraft:jsch:0.1.55")
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 }

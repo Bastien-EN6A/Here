@@ -1,4 +1,4 @@
-package com.example.here
+package com.ironmind.here
 
 import org.junit.Test
 

@@ -36,10 +36,12 @@ class MainActivity : ComponentActivity() {
         val deleteRequest = OneTimeWorkRequestBuilder<DataDeleter>().build()
         val clearCache = OneTimeWorkRequestBuilder<ClearCache>().build()
 
+        //comment utiliser les request : exemples
         //WorkManager.getInstance(this).enqueue(uploadRequest) //pour upload la bdd sur le raspberry
         //WorkManager.getInstance(this).enqueue(deleteRequest) //pour delete
         //WorkManager.getInstance(this).enqueue(downloadRequest) //pour telecharger
         //WorkManager.getInstance(this).enqueue(clearCache) //pour nettoyer la bdd locale
+
         enableEdgeToEdge()
         setContent {
             HereTheme {

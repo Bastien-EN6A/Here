@@ -1,4 +1,4 @@
-package com.example.here.ui.theme
+package com.ironmind.here.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
